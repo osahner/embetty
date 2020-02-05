@@ -73,4 +73,16 @@
       opacity: 1;
     }
   }
+  #caption {
+    -webkit-font-smoothing: antialiased;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem 1.5rem;
+    font-size: .9rem;
+    text-align: center;
+    background-color: rgba(255,255,255,.3);
+  }
 }
